@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Hangman</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="game-container">
+        <div class="left-column">
+          <div class="title-container"><h1>HANGMAN</h1></div>
+          <div class="guesses-container"><p>Choose a category</p></div>
+          <div class="img-container">
+            <img src="images/0.jpg" alt="start image" />
+          </div>
+          <div class="category-container">
+            <button>+++animals+++</button>
+            <button>+++countries+++</button>
+            <button>+++movies+++</button>
+          </div>
+          <div class="clue-container"><p></p></div>
+        </div>
+
+        <div class="right-column">
+          <div class="answer-container">
+            <p>Your answer will display here</p>
+          </div>
+          <div class="keyboard-container">
+            <div class="upper-keyboard">
+              <div class="key"><button id="btn">A</button></div>
+              <div class="key"><button id="btn">B</button></div>
+              <div class="key"><button id="btn">C</button></div>
+              <div class="key"><button id="btn">D</button></div>
+              <div class="key"><button id="btn">E</button></div>
+              <div class="key"><button id="btn">F</button></div>
+              <div class="key"><button id="btn">G</button></div>
+              <div class="key"><button id="btn">H</button></div>
+              <div class="key"><button id="btn">I</button></div>
+              <div class="key"><button id="btn">J</button></div>
+              <div class="key"><button id="btn">K</button></div>
+              <div class="key"><button id="btn">L</button></div>
+              <div class="key"><button id="btn">M</button></div>
+            </div>
+            <div class="bottom-keyboard">
+              <div class="key"><button id="btn">N</button></div>
+              <div class="key"><button id="btn">O</button></div>
+              <div class="key"><button id="btn">P</button></div>
+              <div class="key"><button id="btn">Q</button></div>
+              <div class="key"><button id="btn">R</button></div>
+              <div class="key"><button id="btn">S</button></div>
+              <div class="key"><button id="btn">T</button></div>
+              <div class="key"><button id="btn">U</button></div>
+              <div class="key"><button id="btn">V</button></div>
+              <div class="key"><button id="btn">W</button></div>
+              <div class="key"><button id="btn">X</button></div>
+              <div class="key"><button id="btn">Y</button></div>
+              <div class="key"><button id="btn">Z</button></div>
+            </div>
+          </div>
+          <div class="resetbtn-container">
+            <button>RESET</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
